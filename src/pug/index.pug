@@ -40,15 +40,16 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') About
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+
 
         // Page Content
         .container-fluid.p-0
@@ -70,67 +71,7 @@ html(lang='en')
                             i.fab.fa-linkedin-in
                         a.social-icon(href='https://github.com/SteveHoneck')
                             i.fab.fa-github
-            hr.m-0
-
-            // Experience
-            section#experience.resume-section
-               .resume-section-content
-                    h2.mb-5 Experience
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Mechanical Manufacturing Engineer II
-                            .subheading.mb-3 Quality Electrodynamics
-                            p
-                                | As a mechanical manufacturing engineer, I lead cross-functional teams and delivered long term strategic projects as well as technical solutions to day-to-day issues on the manufacturing lines. Responsible for process validation, process improvement, and mechanical engineering tasks within the Manufacturing Engineering department. Lean Leader and Project Leader for Surface Mount Technology and Fused Deposition Modeling departments.
-                        .flex-shrink-0
-                            span.text-primary August 2018 - June 2020
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 R&D Engineer II, R&D Engineer I, R&D Associate Engineer
-                            .subheading.mb-3 ConMed Corporation
-                            p
-                                | As an R&D engineer, I brought medical devices from concept to commercialization. Responsible for project management, assessing user needs, writing resulting engineering specifications, developing & testing prototypes, and final product acceptance testing. Leader of daily engineering tasks as well as cross-functional communication and management.   
-                        .flex-shrink-0
-                            span.text-primary May 2012 - August 2018
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Engineering Co-op
-                            .subheading.mb-3 Coltene/Whaledent, Inc.
-                            p
-                                | Full-time support for Document Control, Product Development, and Manufacturing departments. Responsible for completion of technical tasks for time sensitive projects and initiatives.
-                        .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
-
-            hr.m-0
-
-            // Education
-            section#education.resume-section
-                .resume-section-content
-                    h2.mb-5 Education
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Nucamp Coding Bootcamp
-                            .subheading.mb-3 Certificate of Completion
-                            p Full Stack Web and Mobile Development
-                            p Description?
-                        .flex-shrink-0
-                            span.text-primary November 2020 - May 2021
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 The University of Akron Honors College
-                            .subheading.mb-3 Bachelor of Science
-                            div.mb-4 Biomedical Engineering, Biomechanics
-                            .subheading.mb-3 Minors
-                            div Applied Mathematics
-                            div Pre-MBA for non-Business Majors
-                        .flex-shrink-0
-                            span.text-primary August 2007 - May 2012
-
+            
             hr.m-0
 
             // Skills
@@ -195,7 +136,96 @@ html(lang='en')
                         li.list-inline-item.liAlignment
                             i.fab.fa-github-square
                             .skillsName GitHub
+            
+            hr.m-0
 
+            // Projects
+            section#projects.resume-section
+                .resume-section-content
+                    h2.mb-5 Projects
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Nucamp Site (ADD LINK TO LIVE SITE, TOOLTIPS TO INLINE LINKS) 
+                            .subheading.mb-3 Full stack web and mobile application. Users can explore, review, and register for campsites.
+                            p
+                                | Created throughout the Nucamp Bootcamp course. Front end built with three separate technologies: #[a(href='https://github.com/SteveHoneck/nucampsite' target='blank') Bootstrap,] #[a(href='https://github.com/SteveHoneck/nucampsite-react' target='blank') React,] and #[a(href='https://github.com/SteveHoneck/nucampsite-reactnative' target='blank') React Native.] #[a(href='https://github.com/SteveHoneck/nucampsiteServer' target='blank') Back end] built using NodeJS with Express framework and MongoDB with Mongoose.
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Water Dragon Refresh (ADD LINK TO LIVE SITE) 
+                            .subheading.mb-3 Website. Allows users to explore information on Water Dragon lizards.
+                            p
+                                | Inspired by a personal favorite, but dated, website. Built with the intention to practice two separate technologies: #[a(href='https://github.com/SteveHoneck/waterdragonrefresh' target='blank') Bootstrap] and #[a(href='https://github.com/SteveHoneck/waterdragonrefreshreact' target='blank') React.]
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Face Off (ADD LINK TO LIVE SITE) 
+                            .subheading.mb-3 Browser-based game. Find the missing face.
+                            p
+                                | Created after a four week Nucamp Bootcamp course on web fundamentals of #[a(href='https://github.com/SteveHoneck/faceoff' target='blank') HTML, JavaScript, and CSS.] Initial DOM manipulation logic was part of the bootcamp culminating exercise. Basic buttons, notifications, animations, and other features added as part of personal exploration.
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Nucamp Coding Bootcamp
+                            .subheading.mb-3 Certificate of Completion
+                            p Full Stack Web and Mobile Development
+                            p Description?
+                        .flex-shrink-0
+                            span.text-primary November 2020 - May 2021
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 The University of Akron Honors College
+                            .subheading.mb-3 Bachelor of Science
+                            div.mb-4 Biomedical Engineering, Biomechanics
+                            .subheading.mb-3 Minors
+                            div Applied Mathematics
+                            div Pre-MBA for non-Business Majors
+                        .flex-shrink-0
+                            span.text-primary August 2007 - May 2012
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Mechanical Manufacturing Engineer II
+                            .subheading.mb-3 Quality Electrodynamics
+                            p
+                                | As a mechanical manufacturing engineer, I lead cross-functional teams and delivered long term strategic projects as well as technical solutions to day-to-day issues on the manufacturing lines. Responsible for process validation, process improvement, and mechanical engineering tasks within the Manufacturing Engineering department. Lean Leader and Project Leader for Surface Mount Technology and Fused Deposition Modeling departments.
+                        .flex-shrink-0
+                            span.text-primary August 2018 - June 2020
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 R&D Engineer II, R&D Engineer I, R&D Associate Engineer
+                            .subheading.mb-3 ConMed Corporation
+                            p
+                                | As an R&D engineer, I brought medical devices from concept to commercialization. Responsible for project management, assessing user needs, writing resulting engineering specifications, developing & testing prototypes, and final product acceptance testing. Leader of daily engineering tasks as well as cross-functional communication and management.   
+                        .flex-shrink-0
+                            span.text-primary May 2012 - August 2018
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Engineering Co-op
+                            .subheading.mb-3 Coltene/Whaledent, Inc.
+                            p
+                                | Full-time support for Document Control, Product Development, and Manufacturing departments. Responsible for completion of technical tasks for time sensitive projects and initiatives.
+                        .flex-shrink-0
+                            span.text-primary July 2010 - December 2011
+            
             hr.m-0
 
             // Interests
@@ -208,50 +238,6 @@ html(lang='en')
                         | Another paragraph about things I enjoy.
 
             hr.m-0
-
-            // Awards
-            section#awards.resume-section
-                .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Award 1
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Award 2
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - Award 3
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - Award 4
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - Award 5
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - Award 6
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - Award 7
 
         // Bootstrap core JS
         script(src='https://code.jquery.com/jquery-3.5.1.min.js')
