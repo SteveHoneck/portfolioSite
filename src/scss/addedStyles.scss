@@ -1,8 +1,15 @@
+//Styling for the text names under the development technology icons
 .skillsName {
     font-size: 1rem;
 }
 
+//Alignment for the lists of development technology icons and text names
 .liAlignment {
     vertical-align: top;
     text-align: center;
+}
+
+// Styling for the development technology icons when viewing on small screens
+.Xdev-icons {
+    font-size: 3rem;
 }
