@@ -16,6 +16,8 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- jQuery (included for Bootstrap tooltip usage)-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -149,7 +151,7 @@
                     <h2 class="mb-5">Projects</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0"><a href="https://nucampsite.stevehoneck.com" target="blank">Nucamp Site</a></h3>
+                            <h3 class="mb-0"><a href="https://nucampsite.stevehoneck.com" target="blank" data-toggle="tooltip" data-placement="top" title="Visit live site">Nucamp Site</a></h3>
                             <div class="subheading mb-3">Full stack web and mobile application. Users can explore, review, and register for campsites.</div>
                             <p>
                                 Created throughout the Nucamp Bootcamp course. Front end built with three separate technologies:
@@ -266,3 +268,9 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+<!--jQuery start function added to enable Bootstrap tooltips-->
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>

@@ -25,6 +25,9 @@ html(lang='en')
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
+        // jQuery (included for Bootstrap tooltip usage)
+        script(src="https://code.jquery.com/jquery-3.6.0.min.js")
+
     body#page-top
 
         // Navigation
@@ -146,7 +149,7 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 #[a(href='https://nucampsite.stevehoneck.com' target='blank') Nucamp Site]
+                            h3.mb-0 #[a(href='https://nucampsite.stevehoneck.com' target='blank' data-toggle="tooltip" data-placement="top" title="Visit live site") Nucamp Site]
                             .subheading.mb-3 Full stack web and mobile application. Users can explore, review, and register for campsites.
                             p
                                 | Created throughout the Nucamp Bootcamp course. Front end built with three separate technologies: #[a(href='https://github.com/SteveHoneck/nucampsite' target='blank') Bootstrap,] #[a(href='https://github.com/SteveHoneck/nucampsite-react' target='blank') React,] and #[a(href='https://github.com/SteveHoneck/nucampsite-reactnative' target='blank') React Native.] #[a(href='https://github.com/SteveHoneck/nucampsiteServer' target='blank') Back end] built using NodeJS with Express framework and MongoDB with Mongoose.
@@ -252,3 +255,9 @@ html(lang='en')
 
         // Core theme JS
         script(src='js/scripts.js')
+
+//jQuery start function added to enable Bootstrap tooltips
+script. 
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
